@@ -27,6 +27,12 @@
 .sidebar-option img {
   width: 20px;
 }
+
+.sidebar-option p {
+  display: block !important; /* Ensure the p elements are block elements */
+  color: #333 !important; /* Ensure the text color is visible */
+}
+
 .sidebar-option.active {
   background-color: #fff0ed;
   border-color: tomato;
